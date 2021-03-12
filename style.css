@@ -6,29 +6,21 @@
 
 .container [class*="col-"]{
     background-color: pink;
-    border: 1px solid black;
-    
-}
-.container [class*="col-"] [class*="col-"]{
-    background-color: salmon;
-    border: 1px solid white;
-    
-    
+    border: 1px solid black;    
 }
 .wrap{
     
     position: relative; 
-    /* background-color: salmon;
-    border: 1px solid white; */
-    background-color: silver;
     height: 150px;
-    margin: 10px 0;
-        
+    margin: 10px 0;        
+}
+.container [class*="col-"] [class*="col-"] .wrap{
+    background-color: salmon;
+    border: 1px solid white;     
 }
 .wrap>p{
     position:absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* padding: 8px 10px; */
 }
