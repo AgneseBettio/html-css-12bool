@@ -7,19 +7,23 @@
 .container [class*="col-"]{
     background-color: pink;
     border: 1px solid black;
-    height: 150px;
+    
 }
 .container [class*="col-"] [class*="col-"]{
     background-color: salmon;
     border: 1px solid white;
+    
+    
 }
 .wrap{
-    height: 150px;
+    
     position: relative; 
     /* background-color: salmon;
     border: 1px solid white; */
-    margin: 0 10px;   
-    
+    background-color: silver;
+    height: 150px;
+    margin: 10px 0;
+        
 }
 .wrap>p{
     position:absolute;
