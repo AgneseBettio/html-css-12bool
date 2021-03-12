@@ -1,0 +1,14 @@
+.container{
+    width: 100%;
+    max-width: 920px;
+    margin: auto;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.col{
+    float:left;
+}
